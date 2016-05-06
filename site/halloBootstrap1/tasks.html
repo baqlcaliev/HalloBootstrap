@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>task1</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <div  class="page-header text-center"><h1>Bootstrap Components <small> - this is supposed to be your website header</small></h1></div>
+        <div class="container">
+            <div class="jumbotron">
+                <h1>Your current Jumbotron</h1>
+                <p>...</p>
+                <p><a class="btn btn-primary btn-lg" href="index.html" role="button" target="_blank">Go Back to the Index.html</a></p>
+            </div>
+            <div class="row">
+                <div class="breadcrumb">Bootstrap Breadcrumbs                
+                    <div class="col-md-4"> 
+                    <a href="#">Home</a>
+                    <a href="#">Library</a>
+                    <a href="#">Data</a>
+                    </div>    
+                </div>
+            </div>
+            
+            <div class="row panel panel-default">
+                <div class="panel-heading">Bootstrap Alerts</div>
+                    <div class="panel-body">
+                        <div class="col-md-4"> 
+                            <div class="alert-success">Alert Success - Well Done!</div> 
+                            <div class="alert-info">Alert Info</div> 
+                            <div class="alert-warning">Alert Warning - Be Careful!</div> 
+                            <div class="alert-danger">Alert Danger - Error!</div>
+                        </div> 
+                    </div>
+                    <div class="panel-footer">This is default footer of the panel!</div>
+            </div>
+                
+            <div class="row panel panel-default">
+                <div class="panel-heading">Bootstrap Badges</div>
+                <div class="panel-body">
+                    <div class="col-md-4"> 
+                        <ul class="nav nav-pills" role="tablist">
+                            <li role="presentation" class="active">
+                            <a href="#">Inbox <span class="badge">42</span></a>
+                            </li>
+                            <li role="presentation">
+                            <a href="#"> Messages <span class="badge">4</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row panel panel-default">
+                <div class="panel-heading">Bootstrap List Groups</div>
+                <div class="panel-body">
+                    <div class="col-md-4"> 
+                        <h4>List Group</h4>
+                        <ul class="list-group">
+                            <li class="list-group-item">First</li>
+                            <li class="list-group-item">Second</li>
+                            <li class="list-group-item">Third</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row panel panel-default">
+                <div class="panel-heading">Bootstrap Glyphicons</div>
+                <div class="panel-body">
+                    <div class="col-md-4">      
+                        <div class="btn-toolbar btn-group">
+                            <button type="button" class="btn btn-default" aria-label="Left Align"> 
+                                <span class="glyphicon glyphicon-align-left">
+                                </span>
+                            </button> 
+                            <button type="button" class="btn btn-default" aria-label="Center Align"> 
+                                <span class="glyphicon glyphicon-align-center">      
+                                </span>
+                            </button>
+                            <button type="button" class="btn btn-default" aria-label="Right Align"> 
+                                <span  class="glyphicon glyphicon-align-right">      
+                                </span> 
+                            </button>
+                            <button type="button" class="btn btn-default" aria-label="Justify"> 
+                                <span class="glyphicon glyphicon-align-justify">      
+                                </span> 
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="btn-toolbar">
+                            <button type="button" class="btn btn-default btn-lg btn-primary"> 
+                                <span class="glyphicon glyphicon-star">      
+                                </span> Star 
+                            </button>
+                            <button type="button" class="btn btn-default btn-default btn-success"> 
+                                <span class="glyphicon glyphicon-star">      
+                                </span> Star 
+                            </button>
+                            <button type="button" class="btn btn-default btn-sm btn-info"> 
+                                <span class="glyphicon glyphicon-star">      
+                                </span> Star 
+                            </button>
+                            <button type="button" class="btn btn-default btn-xs"> 
+                                <span class="glyphicon glyphicon-star">      
+                                </span> Star 
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="alert alert-danger" role="alert">
+                            <span></span>
+                            <span class="sr-only">Error:</span>
+                            Enter a valid email address
+                        </div>
+                    </div>
+                </div>
+                <div class="panel-footer">Panel Footer</div>
+            </div>
+            <div class="row panel panel-default">
+                <div class="panel-heading">Bootstrap Progress Bars</div>
+                <div class="panel-body">
+                    <div class="col-md-4">
+                        Progress bar with "success" contextual color 
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                                <span class="sr-only">40% Complete success</span>
+                            </div>
+                        </div>
+                        Progress bar with "warning" contextual color 
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                                <span class="sr-only">60% Complete warning</span>
+                            </div>
+                        </div>
+                        Striped progress bar 
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                <span class="sr-only">80% Complete danger</span>
+                            </div>
+                        </div>
+                        Stacked progress bar with 2 sections: info and warning
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-info progress-bar-striped" style="width: 35%">
+                                <span class="sr-only">35% Complete (success)</span>
+                            </div>
+                            <div class="progress-bar progress-bar-success" style="width: 20%">
+                                <span class="sr-only">20% Complete (warning)</span>
+                            </div>
+                        </div>
+                        Animated progress bar<div class="progress">
+                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
+                                <span class="sr-only">45% Complete</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
